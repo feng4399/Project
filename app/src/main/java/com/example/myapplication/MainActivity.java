@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //btnMy=findViewById(R.id.btn_my);
         getData();
+        Log.d(TAG,"MainActivity");
     }
 
     public void getData() {
