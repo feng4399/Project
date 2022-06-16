@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/like_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:background="@drawable/selector"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/main_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_btn_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="one" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_house"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="two" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_forum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="three" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="four" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_person"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="five" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <Button
+            android:text="uuuu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_msg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout>

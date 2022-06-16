@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="phonenumber">电话号码</string>
+    <string name="label1">欢迎</string>
+    <string name="label2">Android</string>
+    <string name="label3">蛋蛋网</string>
+    <string name="labelurl">www.androidegg.com</string>
+</resources>
